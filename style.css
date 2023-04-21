@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    width: 316px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #header {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    font-size: 20px;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 20px;
+    background: #262626;
+    overflow: hidden;
+    top: 0;
+    position: fixed;
+  }
+
+  #nav, .navText {
+    font-size: 40px;
+    margin: -48px 12px 50px -208px;
+  }
+
+  #nav, ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+  }
+  #nav, li, a {
+    text-decoration: none;
+    color: aliceblue;
+  }
+
+  #section1 {
+    margin-top: 80px;
+    width: 300px;
+  }
+
+  #firstText {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  #nome {
+    font-size: 40px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+
+  #secondText {
+    font-size: 20px;
+  }
+
+  #socialMidia {
+    margin: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+  }
+
+  #wpp {
+    padding: 10px;
+  }
+  #linkedin {
+    padding: 10px;
+  }
+  #resume {
+    padding: 10px;
+    margin: 30px;
+  }
+
+  #mariPhoto, img {
+    text-align: center;
+    width: 300px;
+    margin-bottom: 20px ;
+  }
+
+  #section2, #works .p1 {
+    font-size: 29px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+
+  #section2 {
+    width: 300px;
+  }
+
+  #works {
+    margin: 85px 0;
+  }
+
+  #logos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 0;
+  }
+
+  #heineken {
+    width: 150px;
+  }
+  #pierre {
+    width: 140px;
+  }
+  #redbull {
+    width: 250px;
+  }
+
+  #leader {
+    margin: -70px;
+  }
+  #infoglobo {
+    margin-bottom: -5px;
+  }
