@@ -99,14 +99,14 @@ html {
     margin-bottom: 20px ;
   }
 
-  #section2, #works .p1 {
+  #trabalhos, #works #p1 {
     font-size: 29px;
     font-weight: bold;
     text-align: center;
   }
 
 
-  #section2 {
+  #trabalhos {
     width: 300px;
   }
 
@@ -136,4 +136,8 @@ html {
   }
   #infoglobo {
     margin-bottom: -5px;
+  }
+
+  #p2 {
+    margin-bottom: 30px;
   }
