@@ -145,3 +145,9 @@ html {
   #p2 {
     margin-bottom: 30px;
   }
+
+  #projects {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
