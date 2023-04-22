@@ -60,7 +60,7 @@ html {
     align-items: center;
     height: 60px;
     width: 100%;
-    font-size: 20px;
+    font-size: 23px;
     justify-content: space-around;
     flex-direction: column;
     gap: 20px;
@@ -78,7 +78,7 @@ html {
 
   #nav, ul {
     display: flex;
-    gap: 30px;
+    gap: 35px;
     list-style: none;
   }
   #nav, li, a {
@@ -275,6 +275,7 @@ html {
   }
 
   #p2 {
+    font-size: 40px;
     margin-bottom: 30px;
   }
 
@@ -355,20 +356,6 @@ html {
     display: none;
   }
 
-  @media(min-width: 1280px) {
-    #twoLogoClientes {
-      display: flex;
-      gap: 150px;
-      align-items: center;
-      margin-bottom: 70px;
-    }
-    
-    #threeLogoClientes {
-      display: flex;
-      gap: 150px;
-      align-items: center;
-    }
-  }
 
   @media (min-width: 1024px) {
 
@@ -384,12 +371,25 @@ html {
       display: flex;
       flex-direction: column;
       align-items: flex-end;
-      gap: 20px;
+      gap: 10px;
       margin-top: 50px;
     }
 
+    #twoLogoClientes {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      gap: 40px;
+    }
+
     #threeLogoClientes {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
       margin-top: 70px;
+      gap: 40px;
     }
 
   }
@@ -398,6 +398,21 @@ html {
     background: var(--headerbg);
     width: 100%;
     text-align: center;
+  }
+
+  @media(min-width: 1280px) {
+    #twoLogoClientes {
+      display: flex;
+      gap: 100px;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    
+    #threeLogoClientes {
+      display: flex;
+      gap: 100px;
+      align-items: center;
+    }
   }
 
   @media (min-width: 1024px) {
