@@ -3,6 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+  --headerbg: #262626;
+  --buttonbg: #262626;
+  --buttonhoverbg: #794848;
+  --homebg: #FFEBCD;
+  --carreirabg: #FFDAB9;
+  --clientesbg: #ddb683;
+
+  --licolor: aliceblue;
+  --buttoncolor: aliceblue;
+
+
+}
+
 html {
     height: 100%;
     width: 100%;
@@ -42,7 +57,7 @@ html {
     justify-content: space-around;
     flex-direction: column;
     gap: 20px;
-    background: #262626;
+    background: var(--headerbg);
     overflow: hidden;
     top: 0;
     position: fixed;
@@ -60,11 +75,11 @@ html {
   }
   #nav, li, a {
     text-decoration: none;
-    color: aliceblue;
+    color: var(--licolor);
   }
 
   #home {
-    background: #FFEBCD;
+    background: var(--homebg);
     width: 100%;
   }
 
@@ -81,15 +96,15 @@ html {
   button {
     border-radius: 10px;
     border: none;
-    background: #262626;
-    color: aliceblue;
+    background: var(--buttonbg);
+    color: var(--buttoncolor);
     padding: 13px;
     font-weight: bold;
     transition: background 0.7s ease;
   }
 
   button:hover {
-    background: #794848;
+    background: var(--buttonhoverbg);
   }
 
   #mari {
@@ -136,7 +151,7 @@ html {
 
   #carreira {
     width: 100%;
-    background: #FFDAB9;
+    background: var(--carreirabg);
   }
 
   #txtCarreira, #txtClientes {
@@ -191,7 +206,7 @@ html {
   }
 
   #clientes {
-    background: #ddb683;
+    background: var(--clientesbg);
     width: 100%;
   }
 
