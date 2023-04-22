@@ -72,6 +72,17 @@ html {
     margin-top: 83px;
   }
 
+  button {
+    border-radius: 10px;
+    border: none;
+    background: #262626;
+    color: aliceblue;
+  }
+
+  button:hover {
+    background: #362222;
+  }
+
   #mari {
     border-radius: 80px;
   }
@@ -97,7 +108,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: 20px;
+    gap: 30px;
   }
 
   #wpp {
