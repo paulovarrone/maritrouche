@@ -201,3 +201,7 @@ html {
     flex-direction: column;
     margin: 103px 0;
   }
+
+  #venancio {
+    margin-top: -28px;
+  }
