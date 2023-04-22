@@ -41,6 +41,7 @@ html {
     body {
       width: 300px;
     }
+    
   }
 
   #main {
@@ -135,9 +136,10 @@ html {
   #secondText {
     font-size: 20px;
     text-align: justify;
+    margin: auto;
   }
 
-  #socialMidia {
+  #socialMedia {
     margin: 40px;
     text-align: center;
     display: flex;
@@ -285,3 +287,16 @@ html {
     width: 100%;
     text-align: center;
   }
+
+  @media (max-width: 300px) {
+    #mari, #secondText, #txtCarreira, #txtClientes {
+      width: 285px;
+    }
+
+    #socialMedia {
+      gap: 20px;
+    }
+
+    
+  }
+
