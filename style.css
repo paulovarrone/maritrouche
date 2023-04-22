@@ -23,6 +23,10 @@ html {
     align-items: center;
   }
 
+  #home, #carreira, #projetos {
+    height: 914px;
+  }
+
   #header {
     display: flex;
     align-items: center;
