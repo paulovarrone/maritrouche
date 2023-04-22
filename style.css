@@ -10,7 +10,7 @@ html {
   }
 
   body {
-    width: 316px;
+    width: 100%;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -54,12 +54,22 @@ html {
   }
 
   #home {
-    
+    background: #FFEBCD;
+    width: 100%;
+  }
+
+  #home2 {
+    margin: auto;
     width: 300px;
+    margin-bottom: 103px;
   }
 
   #upperBody{
     margin-top: 83px;
+  }
+
+  #mari {
+    border-radius: 80px;
   }
 
   #firstText {
@@ -103,19 +113,20 @@ html {
     margin-bottom: 20px ;
   }
 
-  #trabalhos, #works #p1 {
+  #carreira, #works #p1 {
     font-size: 29px;
     font-weight: bold;
     text-align: center;
   }
 
 
-  #trabalhos {
-    width: 300px;
+  #carreira {
+    width: 100%;
+    background: #FFDAB9;
   }
 
   #works {
-    margin: 85px 0;
+    margin: 103px 0;
   }
 
   #logos {
@@ -146,8 +157,14 @@ html {
     margin-bottom: 30px;
   }
 
+  #projetos {
+    background: #ddb683;
+    width: 100%;
+  }
+
   #projects {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin: 103px 0;
   }
