@@ -49,8 +49,8 @@ html {
     align-items: center;
   }
 
-  #home, #carreira, #projetos {
-    height: 1000px;
+  #home, #carreira, #clientes {
+    height: 1200px;
   }
 
   #header {
@@ -199,7 +199,7 @@ html {
   }
 
   #cola {
-    width: 220px;
+    width: 150px;
   }
 
   #leader {
@@ -226,7 +226,25 @@ html {
   }
 
   #venancio {
-    margin-top: -28px;
+    margin-top: -20px;
+  }
+
+  #dominos {
+    margin-top: -50px;
+    margin-bottom: -88px;
+  }
+
+  #spoleto {
+    margin: -61px 0;
+  }
+
+  #koni {
+    margin-top: -70px;
+    margin-bottom: 0px;
+  }
+
+  #araujo {
+    width: 200px;
   }
 
   #mari {
