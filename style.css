@@ -17,6 +17,12 @@ html {
     align-items: center;
   }
 
+  @media (max-width: 300px) {
+    body {
+      width: 300px;
+    }
+  }
+
   #main {
     display: flex;
     flex-direction: column;
