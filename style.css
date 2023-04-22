@@ -107,10 +107,12 @@ html {
     padding: 13px;
     font-weight: bold;
     transition: background 0.7s ease;
+    cursor: pointer;
   }
 
   button:hover {
     background: var(--buttonhoverbg);
+    cursor: pointer;
   }
 
   #mari {
