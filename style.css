@@ -137,7 +137,7 @@ html {
 
   #carreira, #works {
     
-    font-weight: bold;
+    
     text-align: center;
   }
 
@@ -147,9 +147,18 @@ html {
     background: #FFDAB9;
   }
 
+  #txtCarreira, #txtClientes {
+    text-align: justify;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+    
+  }
+
   #p1 {
     font-size: 40px;
     margin-bottom: 30px;
+    font-weight: bold;
   }
 
   #works {
