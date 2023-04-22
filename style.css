@@ -106,6 +106,7 @@ html {
 
   #secondText {
     font-size: 20px;
+    text-align: justify;
   }
 
   #socialMidia {
@@ -170,6 +171,10 @@ html {
   }
   #redbull {
     width: 250px;
+  }
+
+  #cola {
+    width: 220px;
   }
 
   #leader {
