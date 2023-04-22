@@ -281,7 +281,7 @@ html {
   }
   
   #footer {
-    background: rgb(1, 20, 61);
+    background: var(--headerbg);
     width: 100%;
     text-align: center;
   }
