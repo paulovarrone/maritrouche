@@ -53,6 +53,7 @@ html {
   #home, #carreira, #clientes {
     height: 1200px;
   }
+  
 
   #header {
     display: flex;
@@ -392,13 +393,22 @@ html {
     }
 
   }
-
- 
   
   #footer {
     background: var(--headerbg);
     width: 100%;
     text-align: center;
+  }
+
+  @media (min-width: 1024px) {
+    #header {
+      height: 80px;
+      font-size: 30px;
+    }
+
+    #nav, ul {
+      gap: 70px;
+    }
   }
 
   @media (max-width: 300px) {
