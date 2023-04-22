@@ -231,7 +231,7 @@ html {
 
   #mari {
     transform: translateX(-100%); /* Move a imagem para a esquerda fora da tela */
-    animation: slide-in 1s forwards; /* Adiciona a animação com duração de 0.5s e mantém a imagem na posição final */
+    animation: slide-in 1.2s forwards; /* Adiciona a animação com duração de 0.5s e mantém a imagem na posição final */
   }
   
   @keyframes slide-in {
