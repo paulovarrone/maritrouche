@@ -30,7 +30,7 @@ html {
   }
 
   #home, #carreira, #projetos {
-    height: 914px;
+    height: 1000px;
   }
 
   #header {
@@ -152,6 +152,7 @@ html {
     width: 300px;
     margin: auto;
     margin-bottom: 30px;
+    font-size: 20px;
     
   }
 
