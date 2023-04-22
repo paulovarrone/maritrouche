@@ -98,41 +98,7 @@ html {
 
   #pcHome2 {
     display: none;
-  }
-
-  @media (min-width: 1024px) {
-    #home2 {
-      display: none;
-    }
-
-    #pcHome2 {
-      display: flex;
-      align-items: flex-end;
-      margin: 150px auto;
-      justify-content: center;
-      gap: 200px;
-    }
-
-    #secondText {
-      width: 300px;
-    }
-  }
-
-  @media (min-width: 1280px) {
-    #home2 {
-      display: none;
-    }
-
-    #pcHome2 {
-      display: flex;
-      align-items: flex-end;
-      margin: 150px auto;
-      justify-content: center;
-      gap: 500px;
-    }
-
-    
-  }
+  } 
 
   #upperBody{
     margin-top: 83px;
@@ -215,6 +181,17 @@ html {
     
   }
 
+  @media (min-width: 1024px) {
+    #txtCarreira, #txtClientes {
+      text-align: justify;
+      width: 400px;
+      margin: auto auto 30px;
+      font-size: 25px;
+      line-height: 35px;
+      
+    }
+  }
+
   #p1 {
     font-size: 40px;
     margin-bottom: 30px;
@@ -257,8 +234,8 @@ html {
     #pcWorks {
       display: flex;
       align-items: center;
-      gap: 100px;
-      margin: 150px auto;
+      gap: 70px;
+      margin: 100px auto;
       justify-content: center;
       flex-direction: column;
     }
@@ -266,6 +243,7 @@ html {
     #twoLogos {
       gap: 200px;
       display: flex;
+      margin-bottom: 70px;
     }
 
     #threeLogos{
@@ -376,10 +354,25 @@ html {
     display: none;
   }
 
+  @media(min-width: 1280px) {
+    #twoLogoClientes {
+      display: flex;
+      gap: 150px;
+      align-items: center;
+      margin-bottom: 70px;
+    }
+    
+    #threeLogoClientes {
+      display: flex;
+      gap: 150px;
+      align-items: center;
+    }
+  }
+
   @media (min-width: 1024px) {
 
     #projects {
-      margin: 150px auto;
+      margin: 100px auto;
     }
 
     #logoClientes {
@@ -394,7 +387,13 @@ html {
       margin-top: 50px;
     }
 
+    #threeLogoClientes {
+      margin-top: 70px;
+    }
+
   }
+
+ 
   
   #footer {
     background: var(--headerbg);
@@ -409,6 +408,84 @@ html {
 
     #socialMedia {
       gap: 20px;
+    }
+
+    
+  }
+
+  @media (min-width: 1024px) {
+    #home2 {
+      display: none;
+    }
+
+    #mari {
+      margin-bottom: 35px;
+      margin-left: -65px;
+      width: 360px;
+    }
+
+    #pcHome2 {
+      display: flex;
+      align-items: flex-end;
+      margin: 150px auto;
+      justify-content: center;
+      gap: 170px;
+    }
+
+    #firstText {
+      font-size: 25px;
+    }
+
+    #secondText {
+      width: 470px;
+      font-size: 25px;
+      line-height: 40px;
+    }
+
+    #nome {
+      font-size: 90px;
+      margin-left: 55px;
+    }
+
+    button {
+      padding: 20px;
+      font-size: 20px;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    #home2 {
+      display: none;
+    }
+
+    #mari {
+      margin-bottom: 15px;
+    }
+
+    #pcHome2 {
+      display: flex;
+      align-items: flex-end;
+      margin: 150px auto;
+      justify-content: center;
+      gap: 300px;
+    }
+
+    #firstText {
+      font-size: 30px
+    }
+
+    #nome {
+      font-size: 100px;
+    }
+
+    #secondText {
+      width: 700px;
+      font-size: 30px;
+    }
+
+    button {
+      padding: 20px;
+      font-size: 20px;
     }
 
     
