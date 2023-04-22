@@ -205,3 +205,35 @@ html {
   #venancio {
     margin-top: -28px;
   }
+
+  #mari {
+    transform: translateX(-100%); /* Move a imagem para a esquerda fora da tela */
+    animation: slide-in 1s forwards; /* Adiciona a animação com duração de 0.5s e mantém a imagem na posição final */
+  }
+  
+  @keyframes slide-in {
+    0% {
+      transform: translateX(-100%); /* Define o estado inicial da animação */
+      opacity: 0;
+    }
+
+    25% {
+      opacity: 0.25;
+    }
+
+    50% {
+      opacity: 0.5;
+    }
+
+    75% {
+      opacity: 0.75;
+    }
+
+    100% {
+      transform: translateX(0); /* Define o estado final da animação */
+      opacity: 1;
+    }
+
+    
+  }
+  
