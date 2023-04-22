@@ -85,11 +85,11 @@ html {
     color: aliceblue;
     padding: 13px;
     font-weight: bold;
-
+    transition: background 0.7s ease;
   }
 
   button:hover {
-    background: #362222;
+    background: #794848;
   }
 
   #mari {
