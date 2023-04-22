@@ -15,6 +15,8 @@
   --licolor: aliceblue;
   --buttoncolor: aliceblue;
 
+  --ffnome: 'Italianno', cursive;
+  --ffbody: 
 
 }
 
@@ -30,6 +32,9 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: var(--ffbody);
+    
+    
   }
 
   @media (max-width: 300px) {
@@ -109,6 +114,7 @@ html {
 
   #mari {
     border-radius: 80px;
+    
   }
 
   #firstText {
@@ -117,9 +123,10 @@ html {
   }
 
   #nome {
-    font-size: 40px;
-    margin-left: 30px;
+    font-size: 69px;
+    margin-left: 15px;
     margin-bottom: 20px;
+    font-family: var(--ffnome);
   }
 
   #secondText {
