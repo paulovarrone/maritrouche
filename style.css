@@ -96,6 +96,44 @@ html {
     margin-bottom: 103px;
   }
 
+  #pcHome2 {
+    display: none;
+  }
+
+  @media (min-width: 1024px) {
+    #home2 {
+      display: none;
+    }
+
+    #pcHome2 {
+      display: flex;
+      align-items: flex-end;
+      margin: 150px auto;
+      justify-content: center;
+      gap: 200px;
+    }
+
+    #secondText {
+      width: 300px;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    #home2 {
+      display: none;
+    }
+
+    #pcHome2 {
+      display: flex;
+      align-items: flex-end;
+      margin: 150px auto;
+      justify-content: center;
+      gap: 500px;
+    }
+
+    
+  }
+
   #upperBody{
     margin-top: 83px;
   }
@@ -160,6 +198,8 @@ html {
     text-align: center;
   }
 
+  
+
 
   #carreira {
     width: 100%;
@@ -185,6 +225,8 @@ html {
     margin: 103px 0;
   }
 
+  
+
   #logos {
     display: flex;
     align-items: center;
@@ -192,6 +234,46 @@ html {
     
   }
 
+  #pc {
+    display: none;
+  }
+
+  #pcWorks {
+    display: none;
+  }
+
+  @media (min-width: 1024px) {
+    #logos {
+     display: none;
+    }
+
+    #works {
+      display: none;
+    }
+    #pc {
+      display: block;
+    }
+
+    #pcWorks {
+      display: flex;
+      align-items: center;
+      gap: 100px;
+      margin: 150px auto;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    #twoLogos {
+      gap: 200px;
+      display: flex;
+    }
+
+    #threeLogos{
+      display: flex;
+      gap: 100px;
+    }
+  }
+  
   #heineken {
     width: 150px;
   }
@@ -228,6 +310,9 @@ html {
     flex-direction: column;
     margin: 103px 0;
   }
+
+
+
 
   #venancio {
     margin-top: -20px;
@@ -281,6 +366,35 @@ html {
 
     
   }
+
+  #logoClientes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #pclogoClientes {
+    display: none;
+  }
+
+  @media (min-width: 1024px) {
+
+    #projects {
+      margin: 150px auto;
+    }
+
+    #logoClientes {
+      display: none;
+    }
+
+    #pclogoClientes {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 20px;
+      margin-top: 50px;
+    }
+
+  }
   
   #footer {
     background: var(--headerbg);
@@ -300,3 +414,4 @@ html {
     
   }
 
+  
