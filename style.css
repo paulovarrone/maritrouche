@@ -420,7 +420,7 @@ html {
     display: none;
   }
 
-  @media(min-width: 1280px) {
+  @media(min-width: 1380px) {
     #twoLogoClientes {
       display: flex;
       gap: 120px;
@@ -458,7 +458,7 @@ html {
     }
   }
 
-  @media (min-width: 1280px) {
+  @media (min-width: 1380px) {
     #header {
       height: 80px;
       font-size: 30px;
@@ -522,7 +522,7 @@ html {
     }
   }
 
-  @media (min-width: 1280px) {
+  @media (min-width: 1380px) {
     #home2 {
       display: none;
     }
