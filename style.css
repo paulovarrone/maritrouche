@@ -185,7 +185,7 @@ html {
   @media (min-width: 1024px) {
     #txtCarreira, #txtClientes {
       text-align: justify;
-      width: 400px;
+      width: 610px;
       margin: auto auto 30px;
       font-size: 25px;
       line-height: 35px;
@@ -242,14 +242,16 @@ html {
     }
 
     #twoLogos {
-      gap: 200px;
+      gap: 192px;
       display: flex;
       margin-bottom: 50px;
+      align-items: center;
     }
 
     #threeLogos{
       display: flex;
       gap: 100px;
+      align-items: center;
     }
   }
   
@@ -259,8 +261,25 @@ html {
   #pierre {
     width: 140px;
   }
+
+  @media (min-width: 1024px) {
+    #heineken {
+      width: 185px;
+    }
+
+    #pierre {
+      width: 160px
+    }
+  }
+
   #redbull {
     width: 250px;
+  }
+
+  @media (min-width: 1024px) {
+    #redbull {
+      width: 230px;
+    }
   }
 
   #cola {
@@ -290,9 +309,6 @@ html {
     flex-direction: column;
     margin: 103px 0;
   }
-
-
-
 
   #venancio {
     margin-top: -20px;
@@ -399,6 +415,7 @@ html {
     width: 100%;
     text-align: center;
   }
+  
   span {
     display: none;
   }
@@ -541,5 +558,3 @@ html {
 
     
   }
-
-  
