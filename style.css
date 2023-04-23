@@ -106,7 +106,7 @@ html {
   }
 
   button {
-    border-radius: 10px;
+    border-radius: 21px;
     border: none;
     background: var(--buttonbg);
     color: var(--buttoncolor);
@@ -396,7 +396,7 @@ html {
       align-items: center;
       justify-content: center;
       flex-direction: row;
-      gap: 40px;
+      gap: 63px;
     }
 
     #threeLogoClientes {
@@ -423,7 +423,7 @@ html {
   @media(min-width: 1280px) {
     #twoLogoClientes {
       display: flex;
-      gap: 100px;
+      gap: 120px;
       align-items: center;
       margin-bottom: 20px;
     }
@@ -465,7 +465,7 @@ html {
       display: flex;
       flex-direction: row;
       justify-content: space-around;
-      gap: 650px;
+      gap: 850px;
     }
   }
 
@@ -518,6 +518,7 @@ html {
     button {
       padding: 20px;
       font-size: 20px;
+      border-radius: 51px;
     }
   }
 
@@ -554,6 +555,7 @@ html {
     button {
       padding: 20px;
       font-size: 20px;
+      border-radius: 51px;
     }
 
     
