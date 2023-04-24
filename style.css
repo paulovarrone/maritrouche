@@ -443,7 +443,7 @@ html {
       display: flex;
       flex-direction: row;
       justify-content: space-around;
-      gap: 350px;
+      
     }
     
     span {
@@ -465,7 +465,7 @@ html {
       display: flex;
       flex-direction: row;
       justify-content: space-around;
-      gap: 850px;
+      
     }
   }
 
