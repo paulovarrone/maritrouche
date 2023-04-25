@@ -106,6 +106,17 @@ html {
     margin-top: 83px;
   }
 
+  #bandeiras {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    z-index: 2;
+    position: fixed;
+    width: 20px;
+    margin-left: 1110px;
+    margin-top: 10px;
+  }
+
   button {
     border-radius: 21px;
     border: none;
