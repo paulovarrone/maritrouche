@@ -167,7 +167,7 @@ html {
     margin-top: 65px;
     margin-left: 120px;
     position: absolute;
-    
+    display: none;
   }
 
   #uk {
