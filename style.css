@@ -135,7 +135,6 @@ html {
   #nome {
     font-size: 69px;
     margin-left: 15px;
-    margin-bottom: 20px;
     font-family: var(--ffnome);
   }
 
@@ -160,9 +159,52 @@ html {
     margin-bottom: 20px ;
   }
 
+  #bandeiras {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-top: 65px;
+    margin-left: 120px;
+    position: absolute;
+    
+  }
+
+  #uk {
+    width: 55px;
+  }
+  #br {
+    width: 60px;
+    height: 50px;
+    
+  }
+
+  @media (min-width: 1024px) {
+    #bandeiras {
+      margin-top: 218px;
+      margin-left: -400px;
+      gap: 20px;
+    }
+    
+   #uk {
+    width: 64px;
+   }
+
+   #br {
+    width: 64px;
+    height: 57px;
+   }
+
+   
+  }
+
+  @media (min-width: 1380px) {
+    #bandeiras {
+      margin-left: -687px;
+    }
+  }
+ 
   #carreira, #works {
-    
-    
     text-align: center;
   }
 
@@ -490,7 +532,7 @@ html {
     }
 
     #mari {
-      margin-bottom: 35px;
+      margin-bottom: 86px;
       margin-left: -65px;
       width: 360px;
     }
@@ -548,6 +590,7 @@ html {
 
     #nome {
       font-size: 100px;
+      margin-left: 130px;
     }
 
     #secondText {
