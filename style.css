@@ -16,7 +16,7 @@
   --buttoncolor: aliceblue;
 
   --ffnome: 'Italianno', cursive;
-  --ffbody: 
+  --ffh1: 'Poppins', sans-serif; 
 
 }
 
@@ -80,6 +80,7 @@ html {
     display: flex;
     gap: 35px;
     list-style: none;
+    
   }
   #nav, li, a {
     text-decoration: none;
@@ -165,7 +166,9 @@ html {
     text-align: center;
   }
 
-  
+  #p1, #p2 {
+    font-family: var(--ffh1);
+  }
 
 
   #carreira {
