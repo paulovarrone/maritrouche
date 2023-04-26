@@ -167,7 +167,7 @@ html {
     margin-top: 65px;
     margin-left: 120px;
     position: absolute;
-    display: none;
+    display: none; /* TIRAR PARA APARECEREM AS BANDEIRAS */
   }
 
   #uk {
@@ -532,7 +532,7 @@ html {
     }
 
     #mari {
-      margin-bottom: 86px;
+      
       margin-left: -65px;
       width: 360px;
     }
@@ -573,7 +573,7 @@ html {
     }
 
     #mari {
-      margin-bottom: 15px;
+      margin-bottom: 0px;
     }
 
     #pcHome2 {
