@@ -50,16 +50,30 @@ html {
     align-items: center;
   }
 
-  #clientes {
-    height: 1200px;
+  #home {
+    height: 990px;
   }
 
   #carreira {
     height: 1270px;
   }
 
-  #home {
-    height: 1010px;
+  #clientes {
+    height: 1200px;
+  }
+
+  @media(min-width: 1024px) {
+    #home {
+      height: 975px;
+    }
+
+    #carreira {
+      height: 975px;
+    }
+
+    #clientes {
+      height: 880px;
+    }
   }
   
 
@@ -244,14 +258,10 @@ html {
       line-height: 35px;
       
     }
+
   }
 
-  #home,  #carreira {
-    height: 975px;
-  }
-#clientes {
-  height: 900px;
-}
+  
 
   #p1 {
     font-size: 40px;
@@ -367,7 +377,7 @@ html {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 103px 0;
+    margin: 30px 0px;
   }
 
   #venancio {
@@ -434,10 +444,6 @@ html {
 
 
   @media (min-width: 1024px) {
-
-    #projects {
-      margin: 50px auto;
-    }
 
     #logoClientes {
       display: none;
