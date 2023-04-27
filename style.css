@@ -50,8 +50,16 @@ html {
     align-items: center;
   }
 
-  #home, #carreira, #clientes {
+  #clientes {
     height: 1200px;
+  }
+
+  #carreira {
+    height: 1270px;
+  }
+
+  #home {
+    height: 1010px;
   }
   
 
@@ -238,6 +246,13 @@ html {
     }
   }
 
+  #home,  #carreira {
+    height: 975px;
+  }
+#clientes {
+  height: 900px;
+}
+
   #p1 {
     font-size: 40px;
     margin-bottom: 30px;
@@ -421,7 +436,7 @@ html {
   @media (min-width: 1024px) {
 
     #projects {
-      margin: 100px auto;
+      margin: 50px auto;
     }
 
     #logoClientes {
